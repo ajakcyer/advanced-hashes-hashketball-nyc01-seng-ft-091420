@@ -222,7 +222,7 @@ def big_shoe_rebounds
     player_array = teams_stats[:players]
     
     biggest_shoes = 0
-    biggest_shoes_rebounds =
+    biggest_shoes_rebounds = 0
     
     player_array.each do |player_data|
       #binding.pry
