@@ -221,10 +221,10 @@ def big_shoe_rebounds
     
     player_array = teams_stats[:players]
     
-    biggest_shoes = nil
+    biggest_shoes = 0
     player_array.each do |player_data|
       #binding.pry
-      if biggest_shoes = nil
+      if biggest_shoes < player_data[:shoe]
         biggest_shoes = player_data[:shoe]
       else biggest_shoes < player_data[:shoe]
         biggest_shoes = player_data[:shoe]
