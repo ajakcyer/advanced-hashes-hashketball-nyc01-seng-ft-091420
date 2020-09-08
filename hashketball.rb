@@ -226,15 +226,14 @@ def big_shoe_rebounds
     
     player_array.each do |player_data|
       #binding.pry
-      binding.pry
+      #binding.pry
       if biggest_shoes < player_data[:shoe]
         biggest_shoes = player_data[:shoe]
         biggest_shoes_rebounds = player_data[:rebounds]
-        
       end
     end
     #binding.pry
-    biggest_shoes_rebounds
+    return biggest_shoes_rebounds
     biggest_shoes
   end
 
